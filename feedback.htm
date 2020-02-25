@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Обратная связь</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Feedback"> 
+  <meta name="keywords" content="feedback">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/feedback.css">
+</head>
+
+<body>
+  <header>
+    <h1>Обратная связь</h1>
+    <p>Оставляйте здесь ваши отзывы, пожелания, предложения</p>
+  </header>
+
+  <nav>
+    <a href="index.htm">Главная</a>
+    <a href="cubes.htm">Виды кубиков</a>
+    <a href="solution.htm">Как собрать</a>
+    <a href="records.htm">Рекорды</a>
+    <a href="feedback.htm" class="right-link">Обратная связь</a>
+  </nav>
+
+  <section>
+    <article>
+      <form>
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Имя</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Ваше имя">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Электронная почта</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="email" name="email" placeholder="Ваша электронная почта">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="message">Сообщение</label>
+          </div>
+          <div class="col-75">
+            <textarea id="message" name="message" placeholder="Напишите что-нибудь :)" class="message-field-style"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Отправить">
+        </div>
+        </form>
+    </article>
+  </section>
+
+  <footer>
+    <h3>Copyright © Wackhill, 2020</h3>
+  </footer>
+</body>
+</html>
